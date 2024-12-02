@@ -12,7 +12,7 @@ public:
 	// public functions
 	void DisplayStats();
 
-private:
+protected:
 
 	// Data members
 	std::string name;

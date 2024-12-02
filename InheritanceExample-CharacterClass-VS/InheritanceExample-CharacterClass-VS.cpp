@@ -1,10 +1,11 @@
 #include <iostream>
-#include "CharacterClass.h"
+#include "Warrior.h"
 
 int main()
 {
-	CharacterClass* testChar = new CharacterClass("Maximus", 150, 20);
+	Warrior* testChar = new Warrior("Maximus");
 	testChar->DisplayStats();
+	testChar->ShieldWall();
 	delete testChar;
 	testChar = nullptr;
 }
