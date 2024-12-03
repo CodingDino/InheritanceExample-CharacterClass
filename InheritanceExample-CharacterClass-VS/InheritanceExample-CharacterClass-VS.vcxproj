@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="CharacterClass.cpp" />
     <ClCompile Include="InheritanceExample-CharacterClass-VS.cpp" />
+    <ClCompile Include="Mage.cpp" />
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharacterClass.h" />
+    <ClInclude Include="Mage.h" />
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

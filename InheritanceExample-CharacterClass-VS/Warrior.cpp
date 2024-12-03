@@ -2,7 +2,7 @@
 #include <iostream>
 
 Warrior::Warrior()
-	: CharacterClass()
+	: CharacterClass("Warrior", 90, 50)
 	, shieldStrength(20)
 {
 }

@@ -1,11 +1,12 @@
 #include <iostream>
 #include "Warrior.h"
+#include "Mage.h"
 
 int main()
 {
-	Warrior* testChar = new Warrior("Maximus");
+	Mage* testChar = new Mage("Rincewind");
 	testChar->DisplayStats();
-	testChar->ShieldWall();
+	testChar->Fireball();
 	delete testChar;
 	testChar = nullptr;
 }
